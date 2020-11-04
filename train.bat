@@ -1,0 +1,2 @@
+python .\train.py --batch_size 8 --dataset ..\workspace\annotations\train.record --val_dataset ..\workspace\annotations\test.record --epochs 10000 --mode fit --transfer fine_tune --weights .\checkpoints\yolov3.tf
+:: python .\train.py --batch_size 8 --dataset ..\workspace\annotations\train.record --val_dataset ..\workspace\annotations\test.record --epochs 10000 --mode fit --transfer fine_tune --weights .\checkpoints\yolov3-tiny.tf --tiny

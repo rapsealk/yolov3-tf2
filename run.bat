@@ -1,0 +1,2 @@
+python detect.py --weights ./checkpoints/yolov3_train_20.tf --image ../workspace/data/111.png
+:: python detect.py --weights ./checkpoints/yolov3-tiny_train_9.tf --tiny --image ../workspace/data/111.png
